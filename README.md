@@ -8,19 +8,19 @@
 ## Tech Stack
 
 ### Backend
-- Language: <e.g. Java / Node.js / Python>
-- Framework: <e.g. Spring Boot / Express / FastAPI>
-- Databases: <e.g. PostgreSQL, MongoDB>
-- Communication: <e.g. REST, gRPC, message broker>
+- Language: < Java / Node.js / Python>
+- Framework: < Spring Boot / Express / FastAPI>
+- Databases: < PostgreSQL, MongoDB>
+- Communication: < REST, gRPC, message broker>
 
 ### Frontend
-- Framework: <e.g. React / Angular / Vue>
+- Framework: < React / Angular / Vue>
 
 ### Tools
 - Version control: Git + GitHub
-- Containerization: <e.g. Docker, Docker Compose>
-- API testing: <e.g. Postman>
-- CI/CD: <e.g. GitHub Actions> (optional)
+- Containerization: < Docker, Docker Compose>
+- API testing: < Postman>
+- CI/CD: <. GitHub Actions> (optional)
 
 ## Team
 - Lina Rouabeh
