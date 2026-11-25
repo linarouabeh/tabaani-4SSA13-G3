@@ -36,7 +36,7 @@
 * Anis Othmani
 
 
-**## Eureka et Lieux \& Découverte — lancement local**
+## Eureka et Lieux & Découverte — lancement local
 
 
 
@@ -54,17 +54,17 @@ Prérequis : Java 17 et les noms suivants dans le fichier hosts de Windows :
 
 Dans `Backend/eureka-server`, lancer deux configurations IntelliJ :
 
-\- Profil actif `peer1` : port 8761.
+- Profil actif `peer1` : port 8761.
 
-\- Profil actif `peer2` : port 8762.
+- Profil actif `peer2` : port 8762.
 
 
 
 Dans `Backend/lieux-decouverte-service`, lancer deux configurations :
 
-\- Première instance : port 8080.
+- Première instance : port 8080.
 
-\- Deuxième instance : argument `--server.port=8090`.
+- Deuxième instance : argument `--server.port=8090`.
 
 
 
@@ -74,19 +74,19 @@ Pour ces essais, chaque instance Lieux utilise sa propre base H2 en mémoire.
 
 
 
-\### Vérifications
+### Vérifications
 
 
 
-\- Eureka peer1 : http://peer1:8761
+- Eureka peer1 : http://peer1:8761
 
-\- Eureka peer2 : http://peer2:8762
+- Eureka peer2 : http://peer2:8762
 
-\- Santé Lieux : http://localhost:8080/actuator/health
+- Santé Lieux : http://localhost:8080/actuator/health
 
-\- Informations : http://localhost:8080/actuator/info
+- Informations : http://localhost:8080/actuator/info
 
-\- Métriques : http://localhost:8080/actuator/metrics
+- Métriques : http://localhost:8080/actuator/metrics
 
 
 
@@ -96,13 +96,13 @@ LIEUX-DECOUVERTE-SERVICE UP (2).
 
 
 
-\### Captures
+### Captures
 
 
 
-!\[Eureka peer1](Documentation/Screenshots/eureka-peer1.png)
+![Eureka peer1](Documentation/Screenshots/eureka-peer1.png)
 
 
 
-!\[Eureka peer2](Documentation/Screenshots/eureka-peer2.png)
+![Eureka peer2](Documentation/Screenshots/eureka-peer2.png)
 
