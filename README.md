@@ -99,10 +99,22 @@ LIEUX-DECOUVERTE-SERVICE UP (2).
 ### Captures
 
 
-
 ![Eureka peer1](Documentation/Screenshots/eureka-peer1.png)
 
 
 
 ![Eureka peer2](Documentation/Screenshots/eureka-peer2.png)
 
+## Captures Actuator
+
+### Santé du microservice
+![Actuator Health](Documentation/Screenshots/actuator-health.png)
+
+### Informations de l’application
+![Actuator Info](Documentation/Screenshots/actuator-info.png)
+
+### Métriques
+![Actuator Metrics](Documentation/Screenshots/actuator-metrics.png)
+
+### Niveau des logs
+![Actuator Loggers](Documentation/Screenshots/actuator-loggers.png)
