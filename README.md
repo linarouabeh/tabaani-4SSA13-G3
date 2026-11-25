@@ -57,11 +57,11 @@ Every microservice registers with the same Eureka server and is found by its nam
 
 **VOYAGES registered with Eureka (1 instance):**
 
-![Eureka – 1 instance](eureka-voyages-1-instance.png)
+![Eureka – 1 instance](Documentation/Captures/eureka-voyages-1-instance.png)
 
 **Two instances of VOYAGES (ports 8081 and 8091):**
 
-![Eureka – 2 instances](eureka-voyages-2-instances.png)
+![Eureka – 2 instances](Documentation/Captures/eureka-voyages-2-instances.png)
 
 > The red "EMERGENCY" message is Eureka's *self-preservation mode*: with few instances, it receives fewer heartbeats than its threshold and keeps instances registered as a precaution. This is expected in development.
 
@@ -71,15 +71,15 @@ Exposed endpoints: `health`, `info`, `metrics`, `loggers`. The health status is 
 
 **`/actuator/health`** — overall status UP, computed from its components (`db` H2, `diskSpace`, `discoveryComposite`, `ping`…):
 
-![Actuator health](actuator-health.png)
+![Actuator health](Documentation/Captures/actuator-health.png)
 
 **`/actuator/info`:**
 
-![Actuator info](actuator-info.png)
+![Actuator info](Documentation/Captures/actuator-info.png)
 
 **`/actuator/metrics/http.server.requests`:**
 
-![Actuator metrics](actuator-metrics.png)
+![Actuator metrics](Documentation/Captures/actuator-metrics.png)
 
 - **COUNT:** 13 HTTP requests processed.
 - **MAX:** 0.149 s (≈ 149 ms) for the slowest request.
@@ -87,7 +87,7 @@ Exposed endpoints: `health`, `info`, `metrics`, `loggers`. The health status is 
 
 **`/actuator/loggers`** — log level changed from INFO to DEBUG at runtime, without restarting:
 
-![Actuator loggers](actuator-loggerrs.png)
+![Actuator loggers](Documentation/Captures/actuator-loggerrs.png)
 
 > Note: the "stop the database → service DOWN" test requires a real database server. The Voyages service currently uses H2 in memory; this test will apply once it moves to PostgreSQL.
 
