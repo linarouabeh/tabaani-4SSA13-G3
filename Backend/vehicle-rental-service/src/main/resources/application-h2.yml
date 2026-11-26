@@ -1,0 +1,9 @@
+# Profil "h2" : base en mémoire, aucun MySQL requis (démo sur n'importe quelle machine).
+# Lancement : mvn spring-boot:run -Dspring-boot.run.profiles=h2
+# 2e instance : -Dspring-boot.run.profiles=h2,instance2
+spring:
+  datasource:
+    url: jdbc:h2:mem:vehicle_rental_db;MODE=MySQL;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
